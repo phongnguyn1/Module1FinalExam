@@ -20,6 +20,6 @@ function find3rdHighestScore(scores) {
 
     return thirdHighest;
 }
-let examScores = [85, 90, 78, 92, 88, 95, 79];
+let examScores = [100, 93, 88, 92, 89, 95, 79];
 let thirdHighestScore = find3rdHighestScore(examScores);
 console.log("Điểm cao thứ 3 là:", thirdHighestScore);
